@@ -1,0 +1,371 @@
+         7295 function calls (7107 primitive calls) in 2.045 seconds
+
+   Ordered by: internal time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        4    2.022    0.506    2.022    0.506 {built-in method select.select}
+       10    0.003    0.000    0.003    0.000 {built-in method _io.open_code}
+        1    0.003    0.003    0.003    0.003 {method 'bind' of '_socket.socket' objects}
+        1    0.002    0.002    0.005    0.005 {built-in method _socket.gethostbyaddr}
+        1    0.002    0.002    0.002    0.002 {built-in method _imp.create_dynamic}
+       50    0.002    0.000    0.002    0.000 {built-in method nt.stat}
+       10    0.001    0.000    0.001    0.000 {built-in method marshal.loads}
+       11    0.001    0.000    0.001    0.000 <frozen importlib._bootstrap>:426(_get_module_lock)
+      123    0.001    0.000    0.001    0.000 <frozen importlib._bootstrap_external>:96(_path_join)
+       35    0.001    0.000    0.001    0.000 {built-in method builtins.__build_class__}
+       10    0.000    0.000    0.000    0.000 {method 'read' of '_io.BufferedReader' objects}
+        1    0.000    0.000    0.000    0.000 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\socket.py:221(__init__)
+     20/5    0.000    0.000    0.001    0.000 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\re\_parser.py:512(_parse)
+        9    0.000    0.000    0.000    0.000 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\re\_compiler.py:243(_optimize_charset)
+        1    0.000    0.000    2.044    2.044 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\site-packages\bottle.py:3097(run)
+       25    0.000    0.000    0.002    0.000 <frozen importlib._bootstrap_external>:1589(find_spec)
+     35/5    0.000    0.000    0.000    0.000 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\re\_compiler.py:37(_compile)
+  700/662    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+      609    0.000    0.000    0.000    0.000 {method 'append' of 'list' objects}
+       10    0.000    0.000    0.006    0.001 <frozen importlib._bootstrap_external>:1061(get_code)
+     11/2    0.000    0.000    0.015    0.008 <frozen importlib._bootstrap>:1349(_find_and_load)
+       10    0.000    0.000    0.000    0.000 {method '__exit__' of '_io._IOBase' objects}
+        1    0.000    0.000    0.002    0.002 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\wsgiref\handlers.py:1(<module>)
+       11    0.000    0.000    0.003    0.000 <frozen importlib._bootstrap>:1240(_find_spec)
+      433    0.000    0.000    0.000    0.000 {method 'endswith' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 {method 'getpeername' of '_socket.socket' objects}
+      442    0.000    0.000    0.000    0.000 {method 'startswith' of 'str' objects}
+        1    0.000    0.000    2.023    2.023 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\socketserver.py:218(serve_forever)
+        1    0.000    0.000    0.000    0.000 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\socket.py:244(__repr__)
+        1    0.000    0.000    0.000    0.000 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\stringprep.py:1(<module>)
+        4    0.000    0.000    2.022    0.506 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\selectors.py:313(_select)
+     10/3    0.000    0.000    0.012    0.004 {built-in method builtins.exec}
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.eval}
+        4    0.000    0.000    2.022    0.506 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\selectors.py:319(select)
+     19/5    0.000    0.000    0.001    0.000 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\re\_parser.py:452(_parse_sub)
+      241    0.000    0.000    0.000    0.000 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\re\_parser.py:168(__getitem__)
+      390    0.000    0.000    0.000    0.000 {method 'rstrip' of 'str' objects}
+       20    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:481(cache_from_source)
+      418    0.000    0.000    0.000    0.000 {built-in method builtins.isinstance}
+       11    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:304(acquire)
+        1    0.000    0.000    0.000    0.000 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\collections\__init__.py:355(namedtuple)
+        1    0.000    0.000    0.000    0.000 {built-in method nt.listdir}
+    44/15    0.000    0.000    0.000    0.000 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\re\_parser.py:178(getwidth)
+        1    0.000    0.000    0.000    0.000 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\http\server.py:146(BaseHTTPRequestHandler)
+     11/2    0.000    0.000    0.015    0.007 <frozen importlib._bootstrap>:1304(_find_and_load_unlocked)
+       11    0.000    0.000    0.003    0.000 <frozen importlib._bootstrap_external>:1487(_get_spec)
+        6    0.000    0.000    0.002    0.000 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\re\__init__.py:280(_compile)
+      148    0.000    0.000    0.000    0.000 {method 'join' of 'str' objects}
+        2    0.000    0.000    0.000    0.000 {method 'getsockname' of '_socket.socket' objects}
+       10    0.000    0.000    0.004    0.000 <frozen importlib._bootstrap_external>:1182(get_data)
+       11    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:733(_init_module_attrs)
+        3    0.000    0.000    0.000    0.000 {method 'write' of '_io.TextIOWrapper' objects}
+      106    0.000    0.000    0.000    0.000 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\re\_parser.py:261(get)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+     11/3    0.000    0.000    0.014    0.005 <frozen importlib._bootstrap>:911(_load_unlocked)
+       26    0.000    0.000    0.000    0.000 {built-in method builtins.max}
+     24/5    0.000    0.000    0.013    0.003 <frozen importlib._bootstrap>:480(_call_with_frames_removed)
+       50    0.000    0.000    0.000    0.000 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\wsgiref\handlers.py:30(_needs_transcode)
+        1    0.000    0.000    0.002    0.002 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\platform.py:1(<module>)
+       53    0.000    0.000    0.000    0.000 <frozen os>:680(__getitem__)
+        1    0.000    0.000    0.000    0.000 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\wsgiref\handlers.py:34(read_environ)
+       11    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:801(spec_from_file_location)
+       74    0.000    0.000    0.000    0.000 {method 'rpartition' of 'str' objects}
+     10/3    0.000    0.000    0.014    0.005 <frozen importlib._bootstrap_external>:988(exec_module)
+       53    0.000    0.000    0.000    0.000 <frozen os>:754(encodekey)
+      146    0.000    0.000    0.000    0.000 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\re\_parser.py:240(__next)
+        1    0.000    0.000    2.045    2.045 C:\Users\kidal\PycharmProjects\on_bottle-base\project\app.py:31(main)
+       11    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:372(release)
+       11    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:124(setdefault)
+       20    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:132(_path_split)
+        5    0.000    0.000    0.000    0.000 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\re\_compiler.py:511(_compile_info)
+      132    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:491(_verbose_message)
+        1    0.000    0.000    0.000    0.000 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\selectors.py:268(close)
+       11    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:232(__init__)
+       11    0.000    0.000    0.002    0.000 <frozen importlib._bootstrap>:806(module_from_spec)
+        5    0.000    0.000    0.001    0.000 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\re\_compiler.py:573(_code)
+        2    0.000    0.000    0.000    0.000 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\re\_compiler.py:386(_mk_bitmap)
+       14    0.000    0.000    0.000    0.000 {built-in method __new__ of type object at 0x00007FFC102088B0}
+        1    0.000    0.000    0.000    0.000 {method 'listen' of '_socket.socket' objects}
+       10    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:665(_classify_pyc)
+       11    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1584(_get_spec)
+       51    0.000    0.000    0.000    0.000 <frozen _collections_abc>:892(__iter__)
+       10    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap_external>:750(_compile_bytecode)
+        5    0.000    0.000    0.002    0.000 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\re\_compiler.py:740(compile)
+       12    0.000    0.000    0.000    0.000 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\enum.py:713(__call__)
+        1    0.000    0.000    0.001    0.001 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\site-packages\bottle.py:330(add)
+       73    0.000    0.000    0.000    0.000 {built-in method builtins.getattr}
+       30    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:84(_unpack_uint32)
+        1    0.000    0.000    0.002    0.002 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\http\server.py:1(<module>)
+       50    0.000    0.000    0.002    0.000 <frozen importlib._bootstrap_external>:140(_path_stat)
+       12    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:172(_path_isabs)
+       75    0.000    0.000    0.000    0.000 {method 'get' of 'dict' objects}
+       60    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:134(<genexpr>)
+       64    0.000    0.000    0.000    0.000 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\re\_parser.py:176(append)
+        5    0.000    0.000    0.001    0.000 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\re\_parser.py:969(parse)
+      103    0.000    0.000    0.000    0.000 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\re\_parser.py:256(match)
+        1    0.000    0.000    0.000    0.000 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\threading.py:616(set)
+       10    0.000    0.000    0.000    0.000 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\enum.py:1541(__and__)
+       70    0.000    0.000    0.000    0.000 {built-in method builtins.min}
+        1    0.000    0.000    0.000    0.000 <frozen ntpath>:236(split)
+       77    0.000    0.000    0.000    0.000 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\re\_parser.py:164(__len__)
+       11    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:610(_get_cached)
+       11    0.000    0.000    0.000    0.000 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\site-packages\_distutils_hack\__init__.py:82(find_spec)
+        4    0.000    0.000    0.000    0.000 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\site-packages\bottle.py:313(_itertokens)
+       11    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:74(__new__)
+       11    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:162(__enter__)
+       11    0.000    0.000    0.000    0.000 {built-in method _imp.is_builtin}
+        1    0.000    0.000    0.000    0.000 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\site-packages\bottle.py:400(_compile)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1640(_fill_cache)
+       57    0.000    0.000    0.000    0.000 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\re\_parser.py:293(tell)
+       30    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1465(_path_importer_cache)
+       53    0.000    0.000    0.000    0.000 <frozen os>:748(check_str)
+       11    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap>:416(__enter__)
+        1    0.000    0.000    0.002    0.002 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\encodings\idna.py:1(<module>)
+        1    0.000    0.000    0.000    0.000 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\socketserver.py:1(<module>)
+        1    0.000    0.000    2.043    2.043 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\site-packages\bottle.py:2781(run)
+       13    0.000    0.000    0.000    0.000 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\re\_parser.py:372(_escape)
+        1    0.000    0.000    0.010    0.010 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\wsgiref\simple_server.py:1(<module>)
+       11    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:79(__init__)
+       10    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:698(_validate_timestamp_pyc)
+       40    0.000    0.000    0.000    0.000 {method 'rfind' of 'str' objects}
+      8/5    0.000    0.000    0.000    0.000 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\re\_compiler.py:436(_get_literal_prefix)
+       12    0.000    0.000    0.000    0.000 {built-in method nt._path_splitroot}
+       37    0.000    0.000    0.000    0.000 {built-in method builtins.hasattr}
+       27    0.000    0.000    0.000    0.000 {method 'find' of 'bytearray' objects}
+       51    0.000    0.000    0.000    0.000 <frozen os>:703(__iter__)
+       44    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1226(__exit__)
+        1    0.000    0.000    0.008    0.008 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\socketserver.py:450(__init__)
+       14    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:150(_path_is_mode_type)
+       11    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:445(cb)
+        7    0.000    0.000    0.000    0.000 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\re\_parser.py:449(_uniq)
+        2    0.000    0.000    0.000    0.000 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\socket.py:100(_intenum_converter)
+       10    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:642(_check_name_wrapper)
+       10    0.000    0.000    0.000    0.000 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\re\_parser.py:86(opengroup)
+        1    0.000    0.000    0.005    0.005 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\socket.py:781(getfqdn)
+        1    0.000    0.000    0.003    0.003 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\encodings\__init__.py:71(search_function)
+       11    0.000    0.000    0.003    0.000 <frozen importlib._bootstrap_external>:1516(find_spec)
+       66    0.000    0.000    0.000    0.000 {built-in method _imp.acquire_lock}
+       12    0.000    0.000    0.000    0.000 {built-in method _thread.allocate_lock}
+        1    0.000    0.000    0.003    0.003 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\socketserver.py:463(server_bind)
+       25    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:67(_relax_case)
+        9    0.000    0.000    0.000    0.000 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\re\_compiler.py:216(_compile_charset)
+        1    0.000    0.000    0.000    0.000 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\wsgiref\handlers.py:94(BaseHandler)
+       66    0.000    0.000    0.000    0.000 {built-in method _imp.release_lock}
+       44    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1222(__enter__)
+       13    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:159(_path_isfile)
+       21    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:632(cached)
+       12    0.000    0.000    0.000    0.000 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\enum.py:1116(__new__)
+       10    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:48(_new_module)
+       54    0.000    0.000    0.000    0.000 {method 'upper' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\threading.py:424(notify_all)
+        1    0.000    0.000    0.000    0.000 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\socket.py:516(family)
+        1    0.000    0.000    0.008    0.008 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\http\server.py:134(server_bind)
+       10    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1201(path_stats)
+       11    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:82(remove)
+       17    0.000    0.000    0.000    0.000 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\re\_compiler.py:398(_simple)
+        1    0.000    0.000    0.001    0.001 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\platform.py:1040(_sys_version)
+       30    0.000    0.000    0.000    0.000 {built-in method from_bytes}
+       10    0.000    0.000    0.000    0.000 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\re\_parser.py:98(closegroup)
+        1    0.000    0.000    0.000    0.000 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\selectors.py:202(__exit__)
+        2    0.000    0.000    0.000    0.000 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\re\_compiler.py:391(_bytes_to_codes)
+        1    0.000    0.000    0.000    0.000 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\wsgiref\util.py:1(<module>)
+       16    0.000    0.000    0.000    0.000 {method 'pop' of 'dict' objects}
+       11    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:420(__exit__)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1452(_path_hooks)
+        1    0.000    0.000    0.001    0.001 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\site-packages\bottle.py:781(add_route)
+       22    0.000    0.000    0.000    0.000 {method '__exit__' of '_thread.RLock' objects}
+       50    0.000    0.000    0.000    0.000 {method '__contains__' of 'set' objects}
+       19    0.000    0.000    0.000    0.000 {method 'replace' of 'str' objects}
+       13    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:645(parent)
+       38    0.000    0.000    0.000    0.000 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\re\_parser.py:113(__init__)
+        2    0.000    0.000    0.000    0.000 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\threading.py:299(__enter__)
+       30    0.000    0.000    0.000    0.000 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\re\_parser.py:83(groups)
+        5    0.000    0.000    0.000    0.000 {method 'format' of 'str' objects}
+        1    0.000    0.000    0.001    0.001 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\site-packages\bottle.py:818(decorator)
+       37    0.000    0.000    0.000    0.000 {built-in method nt.fspath}
+        1    0.000    0.000    0.000    0.000 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\threading.py:314(_is_owned)
+        3    0.000    0.000    0.000    0.000 <frozen ntpath>:179(splitroot)
+       11    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1128(find_spec)
+        1    0.000    0.000    0.000    0.000 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\site-packages\bottle.py:473(__init__)
+        5    0.000    0.000    0.000    0.000 {built-in method _sre.compile}
+        8    0.000    0.000    0.000    0.000 {method 'extend' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\encodings\__init__.py:43(normalize_encoding)
+        5    0.000    0.000    0.000    0.000 {built-in method builtins.locals}
+       11    0.000    0.000    0.000    0.000 {built-in method _imp.find_frozen}
+       22    0.000    0.000    0.000    0.000 {built-in method _thread.get_ident}
+       18    0.000    0.000    0.000    0.000 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\re\_parser.py:172(__setitem__)
+       12    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:185(_path_abspath)
+        1    0.000    0.000    0.000    0.000 {method 'match' of 're.Pattern' objects}
+        6    0.000    0.000    0.000    0.000 {built-in method builtins.setattr}
+        7    0.000    0.000    0.000    0.000 {built-in method fromkeys}
+       43    0.000    0.000    0.000    0.000 {built-in method builtins.ord}
+        5    0.000    0.000    0.001    0.000 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\re\__init__.py:226(compile)
+       11    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:982(find_spec)
+        1    0.000    0.000    0.000    0.000 {method 'clear' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\encodings\idna.py:155(encode)
+        2    0.000    0.000    0.004    0.002 {built-in method builtins.__import__}
+       11    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:173(__exit__)
+       18    0.000    0.000    0.000    0.000 {method 'pop' of 'list' objects}
+        4    0.000    0.000    0.000    0.000 {method 'split' of 'str' objects}
+        5    0.000    0.000    0.000    0.000 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\re\_parser.py:231(__init__)
+        5    0.000    0.000    0.000    0.000 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\re\_compiler.py:467(_get_charset_prefix)
+        2    0.000    0.000    0.000    0.000 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\threading.py:302(__exit__)
+        1    0.000    0.000    0.000    0.000 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\platform.py:842(uname_result)
+        1    0.000    0.000    0.000    0.000 <frozen ntpath>:275(dirname)
+        1    0.000    0.000    0.000    0.000 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\threading.py:394(notify)
+        1    0.000    0.000    0.000    0.000 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\encodings\idna.py:308(getregentry)
+        1    0.000    0.000    0.008    0.008 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\wsgiref\simple_server.py:48(server_bind)
+        1    0.000    0.000    0.000    0.000 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\selectors.py:234(register)
+        1    0.000    0.000    0.000    0.000 {method 'setsockopt' of '_socket.socket' objects}
+        1    0.000    0.000    0.000    0.000 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\site-packages\bottle.py:2720(wrapper)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1563(__init__)
+        2    0.000    0.000    0.000    0.000 {method '__enter__' of '_thread.lock' objects}
+        1    0.000    0.000    0.001    0.001 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\platform.py:1138(python_implementation)
+        1    0.000    0.000    0.000    0.000 <frozen zipimport>:64(__init__)
+        1    0.000    0.000    0.000    0.000 {built-in method _abc._abc_init}
+       11    0.000    0.000    0.000    0.000 {method 'remove' of 'list' objects}
+        1    0.000    0.000    0.008    0.008 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\wsgiref\simple_server.py:150(make_server)
+       11    0.000    0.000    0.000    0.000 {built-in method _weakref._remove_dead_weakref}
+       11    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:599(__init__)
+        1    0.000    0.000    0.000    0.000 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\platform.py:794(_Processor)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1681(path_hook_for_FileFinder)
+       16    0.000    0.000    0.000    0.000 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\re\_compiler.py:31(_combine_flags)
+        1    0.000    0.000    0.000    0.000 <frozen ntpath>:107(join)
+        1    0.000    0.000    0.000    0.000 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\http\server.py:646(SimpleHTTPRequestHandler)
+        4    0.000    0.000    0.000    0.000 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\re\_parser.py:312(_class_escape)
+        1    0.000    0.000    0.000    0.000 {method 'sub' of 're.Pattern' objects}
+        1    0.000    0.000    0.000    0.000 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\site-packages\bottle.py:2122(load_dict)
+        1    0.000    0.000    0.000    0.000 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\threading.py:277(__init__)
+        1    0.000    0.000    0.000    0.000 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\socketserver.py:203(__init__)
+       10    0.000    0.000    0.000    0.000 {built-in method _imp._fix_co_filename}
+        1    0.000    0.000    0.000    0.000 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\threading.py:627(clear)
+        1    0.000    0.000    0.000    0.000 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\wsgiref\headers.py:1(<module>)
+        1    0.000    0.000    0.000    0.000 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\socket.py:522(type)
+        1    0.000    0.000    0.000    0.000 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\selectors.py:298(register)
+        1    0.000    0.000    0.000    0.000 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\socketserver.py:155(BaseServer)
+        1    0.000    0.000    0.000    0.000 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\wsgiref\headers.py:28(Headers)
+        2    0.000    0.000    0.000    0.000 {method 'tolist' of 'memoryview' objects}
+       14    0.000    0.000    0.000    0.000 {method 'add' of 'set' objects}
+        1    0.000    0.000    0.000    0.000 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\threading.py:588(__init__)
+        1    0.000    0.000    0.000    0.000 <frozen ntpath>:596(abspath)
+        5    0.000    0.000    0.000    0.000 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\re\_parser.py:953(fix_flags)
+       10    0.000    0.000    0.000    0.000 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\re\_compiler.py:570(isstring)
+        1    0.000    0.000    0.000    0.000 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\selectors.py:209(__init__)
+        1    0.000    0.000    0.000    0.000 <frozen abc>:105(__new__)
+        1    0.000    0.000    0.000    0.000 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\selectors.py:293(__init__)
+        1    0.000    0.000    0.000    0.000 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\socketserver.py:476(server_activate)
+        1    0.000    0.000    0.000    0.000 <frozen _collections_abc>:811(__contains__)
+       11    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:412(__init__)
+        1    0.000    0.000    0.000    0.000 {method 'acquire' of '_thread.lock' objects}
+        1    0.000    0.000    0.000    0.000 {built-in method maketrans}
+        1    0.000    0.000    0.000    0.000 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\wsgiref\simple_server.py:53(setup_environ)
+       15    0.000    0.000    0.000    0.000 {method 'lower' of 'str' objects}
+        4    0.000    0.000    0.000    0.000 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\site-packages\bottle.py:159(makelist)
+        1    0.000    0.000    0.000    0.000 <frozen codecs>:94(__new__)
+        1    0.000    0.000    0.000    0.000 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\re\_parser.py:274(getuntil)
+        1    0.000    0.000    0.002    0.002 <frozen importlib._bootstrap_external>:1286(create_module)
+        2    0.000    0.000    0.000    0.000 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\site-packages\bottle.py:2203(__setattr__)
+        1    0.000    0.000    0.000    0.000 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\site-packages\bottle.py:788(route)
+        1    0.000    0.000    0.000    0.000 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\site-packages\bottle.py:2099(__init__)
+        1    0.000    0.000    0.000    0.000 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\selectors.py:21(_fileobj_to_fd)
+        1    0.000    0.000    0.000    0.000 <frozen _collections_abc>:823(items)
+        1    0.000    0.000    0.000    0.000 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\socketserver.py:392(TCPServer)
+       10    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1152(__init__)
+        8    0.000    0.000    0.000    0.000 {method 'partition' of 'str' objects}
+       13    0.000    0.000    0.000    0.000 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\re\_compiler.py:428(_get_iscased)
+        2    0.000    0.000    0.000    0.000 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\site-packages\bottle.py:407(<genexpr>)
+        1    0.000    0.000    0.000    0.000 <frozen ntpath>:35(_get_bothseps)
+        1    0.000    0.000    0.000    0.000 {built-in method nt._getfullpathname}
+        6    0.000    0.000    0.000    0.000 {built-in method sys.intern}
+        1    0.000    0.000    0.000    0.000 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\re\__init__.py:179(sub)
+        1    0.000    0.000    0.000    0.000 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\site-packages\bottle.py:264(<lambda>)
+        2    0.000    0.000    0.000    0.000 {method 'fileno' of '_socket.socket' objects}
+        1    0.000    0.000    0.000    0.000 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\wsgiref\simple_server.py:42(WSGIServer)
+        1    0.000    0.000    0.000    0.000 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\wsgiref\simple_server.py:66(set_app)
+        1    0.000    0.000    0.000    0.000 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\http\server.py:979(CGIHTTPRequestHandler)
+       11    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:158(__init__)
+        7    0.000    0.000    0.000    0.000 {method 'items' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\site-packages\bottle.py:259(_re_flatten)
+        1    0.000    0.000    0.000    0.000 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\site-packages\bottle.py:2758(__repr__)
+        1    0.000    0.000    0.000    0.000 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\socketserver.py:737(BaseRequestHandler)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1294(exec_module)
+        1    0.000    0.000    0.000    0.000 {method 'finditer' of 're.Pattern' objects}
+        6    0.000    0.000    0.000    0.000 {method '__contains__' of 'frozenset' objects}
+       10    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1177(get_filename)
+        1    0.000    0.000    0.000    0.000 <frozen ntpath>:564(normpath)
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.repr}
+        1    0.000    0.000    0.000    0.000 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\selectors.py:215(_fileobj_lookup)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1390(_handle_fromlist)
+        2    0.000    0.000    0.000    0.000 {method 'groups' of 're.Match' objects}
+        1    0.000    0.000    0.000    0.000 {method 'translate' of 'str' objects}
+        5    0.000    0.000    0.000    0.000 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\re\_parser.py:77(__init__)
+        2    0.000    0.000    0.000    0.000 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\site-packages\bottle.py:104(<lambda>)
+        6    0.000    0.000    0.000    0.000 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\collections\__init__.py:429(<genexpr>)
+        3    0.000    0.000    0.000    0.000 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\socketserver.py:257(service_actions)
+        2    0.000    0.000    0.000    0.000 <frozen _collections_abc>:804(get)
+        2    0.000    0.000    0.000    0.000 {method '__exit__' of '_thread.lock' objects}
+        7    0.000    0.000    0.000    0.000 {method 'isidentifier' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\socketserver.py:492(fileno)
+       10    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:985(create_module)
+        2    0.000    0.000    0.000    0.000 {method 'translate' of 'bytearray' objects}
+        2    0.000    0.000    0.000    0.000 {method 'encode' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\site-packages\bottle.py:2750(__init__)
+        1    0.000    0.000    0.000    0.000 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\socketserver.py:523(UDPServer)
+        1    0.000    0.000    0.000    0.000 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\socketserver.py:673(ThreadingMixIn)
+       11    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:653(has_location)
+        1    0.000    0.000    0.000    0.000 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\re\_parser.py:304(checkgroupname)
+        1    0.000    0.000    0.000    0.000 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\wsgiref\util.py:11(FileWrapper)
+        1    0.000    0.000    0.000    0.000 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\encodings\idna.py:261(IncrementalDecoder)
+        8    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1569(<genexpr>)
+        1    0.000    0.000    0.000    0.000 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\re\__init__.py:255(escape)
+        1    0.000    0.000    0.000    0.000 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\wsgiref\simple_server.py:71(WSGIRequestHandler)
+        1    0.000    0.000    0.000    0.000 <string>:1(<lambda>)
+        1    0.000    0.000    0.000    0.000 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\wsgiref\handlers.py:439(SimpleHandler)
+        1    0.000    0.000    0.000    0.000 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\enum.py:815(__members__)
+        2    0.000    0.000    0.000    0.000 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\site-packages\bottle.py:2232(__call__)
+        1    0.000    0.000    0.000    0.000 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\socketserver.py:640(_Threads)
+        2    0.000    0.000    0.000    0.000 {method 'cast' of 'memoryview' objects}
+        4    0.000    0.000    0.000    0.000 {method 'isalnum' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\site-packages\bottle.py:2786(FixedHandler)
+        1    0.000    0.000    0.000    0.000 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\socketserver.py:783(StreamRequestHandler)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:164(_path_isdir)
+        1    0.000    0.000    0.000    0.000 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\functools.py:965(__init__)
+        1    0.000    0.000    0.000    0.000 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\enum.py:197(__get__)
+        2    0.000    0.000    0.000    0.000 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\re\_parser.py:166(__delitem__)
+        1    0.000    0.000    0.000    0.000 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\wsgiref\simple_server.py:28(ServerHandler)
+        1    0.000    0.000    0.000    0.000 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\selectors.py:63(__init__)
+        1    0.000    0.000    0.000    0.000 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\encodings\idna.py:154(Codec)
+        1    0.000    0.000    0.000    0.000 {built-in method nt._path_normpath}
+        5    0.000    0.000    0.000    0.000 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\site-packages\_distutils_hack\__init__.py:89(<lambda>)
+        2    0.000    0.000    0.000    0.000 {method 'group' of 're.Match' objects}
+        1    0.000    0.000    0.000    0.000 {method 'split' of 'bytes' objects}
+        1    0.000    0.000    0.000    0.000 {built-in method _imp.exec_dynamic}
+        2    0.000    0.000    0.000    0.000 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\site-packages\bottle.py:406(<genexpr>)
+        1    0.000    0.000    0.000    0.000 {method 'values' of 'mappingproxy' objects}
+        1    0.000    0.000    0.000    0.000 {method 'insert' of 'list' objects}
+        4    0.000    0.000    0.000    0.000 {method 'isascii' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\http\server.py:130(HTTPServer)
+        1    0.000    0.000    0.000    0.000 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\socketserver.py:662(_NoThreads)
+        1    0.000    0.000    0.000    0.000 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\wsgiref\handlers.py:510(CGIHandler)
+        1    0.000    0.000    0.000    0.000 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\socketserver.py:828(_SocketWriter)
+        1    0.000    0.000    0.000    0.000 <frozen _collections_abc>:845(__init__)
+        1    0.000    0.000    0.000    0.000 {method 'strip' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 {built-in method sys.getfilesystemencoding}
+        1    0.000    0.000    0.000    0.000 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\enum.py:1279(value)
+        1    0.000    0.000    0.000    0.000 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\wsgiref\handlers.py:486(BaseCGIHandler)
+        1    0.000    0.000    0.000    0.000 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\wsgiref\handlers.py:540(IISCGIHandler)
+        1    0.000    0.000    0.000    0.000 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\socketserver.py:717(ThreadingUDPServer)
+        1    0.000    0.000    0.000    0.000 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\encodings\idna.py:226(IncrementalEncoder)
+        1    0.000    0.000    0.000    0.000 {method 'setdefault' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 {built-in method sys._getframemodulename}
+        1    0.000    0.000    0.000    0.000 <string>:1(<module>)
+        1    0.000    0.000    0.000    0.000 {method 'start' of 're.Match' objects}
+        1    0.000    0.000    0.000    0.000 {method 'end' of 're.Match' objects}
+        1    0.000    0.000    0.000    0.000 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\functools.py:970(__set_name__)
+        1    0.000    0.000    0.000    0.000 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\wsgiref\__init__.py:1(<module>)
+        1    0.000    0.000    0.000    0.000 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\socketserver.py:847(DatagramRequestHandler)
+        1    0.000    0.000    0.000    0.000 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\http\server.py:142(ThreadingHTTPServer)
+        1    0.000    0.000    0.000    0.000 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\encodings\idna.py:300(StreamWriter)
+        1    0.000    0.000    0.000    0.000 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\site-packages\bottle.py:300(<lambda>)
+        1    0.000    0.000    0.000    0.000 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\selectors.py:199(__enter__)
+        1    0.000    0.000    0.000    0.000 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\socketserver.py:718(ThreadingTCPServer)
+        1    0.000    0.000    0.000    0.000 C:\Users\kidal\AppData\Local\Programs\Python\Python312\Lib\encodings\idna.py:303(StreamReader)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1275(__init__)
+
+
